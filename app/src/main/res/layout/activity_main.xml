@@ -7,12 +7,31 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/wellcomeTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="@string/main_activity_wellcome_text"
+        android:textAlignment="center"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Este signo es para los comentarios, con
+    teclado numérico: Control slash dividir -->
+
+    <Button
+        android:id="@+id/Botondelclick"
+        android:layout_width="170dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="36dp"
+        android:text="Hacer Click"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wellcomeTextView"
+        />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

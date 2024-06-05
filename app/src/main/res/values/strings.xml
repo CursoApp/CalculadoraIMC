@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">CalculadoraIMC</string>
+
+    <string name="main_activity_wellcome_text">Wellcome to my first App</string>
+
+
 </resources>
