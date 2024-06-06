@@ -66,6 +66,7 @@ class MainActivity : AppCompatActivity() { //AppCompatActivity es la HERENCIA
         resultTextView = findViewById(R.id.resultTextView)
         calculateButton = findViewById(R.id.calculateButton)
 
+
         setHeight()
         setWeight()
 
