@@ -2,5 +2,4 @@
 <resources>
     <string name="app_name">CalculadoraIMC</string>
     <string name="main_activity_wellcome_text">Bienvenido a mi primera App</string>
-    <string name="main_activity_wellcome_text">Bienvenido a mi pimera App</string>
 </resources>
